@@ -1,0 +1,1 @@
+print("Takk for svar, ",navn+"!")
