@@ -1,2 +1,1 @@
-import emoji
-print(":triumph:")
+str(💩)=float(input("Skriv et flyttall:"))
