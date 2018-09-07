@@ -1,0 +1,8 @@
+print("Vennligst gi inn et flyttall med minst 5 siffer både før og etter.")
+tall=float(input("Hva er tallet ditt? "))
+print("Konvertert til heltall med int():",int(tall))
+print("Avrundet til nærmeste heltall:",round(tall))
+print("Avrundet til to desimaler:",round(tall,2))
+print("Avrundet til fire desimaler:",round(tall,4))
+print("Avrundet til nærmeste tusen:",round(tall,-3))
+print("Heltall fra int() konvertert tilbake til flytall:",float(int(tall)))
