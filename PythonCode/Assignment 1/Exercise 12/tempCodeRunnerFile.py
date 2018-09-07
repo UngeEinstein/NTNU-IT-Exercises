@@ -1,0 +1,1 @@
+print("Antall cookies:","sukker(g)".rjust(15))
