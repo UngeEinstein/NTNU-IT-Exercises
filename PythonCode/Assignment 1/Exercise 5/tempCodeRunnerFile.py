@@ -1,1 +1,0 @@
-str(💩)=float(input("Skriv et flyttall:"))
