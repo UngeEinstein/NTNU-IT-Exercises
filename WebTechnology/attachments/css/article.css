@@ -13,7 +13,7 @@ article {
 
 
 #cover {
-    width: 75ch;
+    width: inherit;
 }
 h1 {
     font-size: 3em;

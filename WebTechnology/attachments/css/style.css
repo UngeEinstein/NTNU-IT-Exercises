@@ -10,7 +10,7 @@ h1, h2 {
     font-size: 30px;
   }
 
-.aboutme, .questions {
+.questions, p {
   font-family: 'Times New Roman', Times, serif;
   font-size: 16px;
 }
