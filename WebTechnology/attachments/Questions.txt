@@ -1,0 +1,19 @@
+1.  The inline style CSS rules in the style element override the external CSS document because the more local a style is defined, the higher priority.
+    The inline style is more local to the html document than the external document, also the inline will be prioritised 
+
+2.  The reason to use ID over classes is if you want to alter one specific element, and only that one because the ID is unique to only one specific element.
+    While when you use classes you can setup the HTML in a way where you put a lot of elements inside that class and that way alter multiple elements the same way.
+    For example in this assignment i used ID to alter the cover picture of the tea or a picture of myself. An example of how i could use class is if i wanted to 
+    alter all the paragraphs in an specific part of the website, to for example change the font. Or if i wanted to put a box around the list and a few more paragraphs 
+    after the list, i could include both the list and that paragraph into the class to alter multiple events at the same time.
+    Basically, ID belongs to a single element, while class can contain multiple elements
+
+3.  RGBA is short for Red Green Blue Alpha. Its a combination of the RGB color model with an extra fourth alpha channel. The alpha part alters how opaque each of the pixels will be.
+    Also it can create a color which seem even lighter than the normal one and can make the color look very different with only the alpha parameter changed.
+    In RGB you have 3 slides where you can choose the intensity of Red,Green and Blue. The combination of how intense each of the slides can be can create a lot of different color results.
+
+4.  When you put the CSS in the head, then the CSS rules will be declared before the website begins. Also all your styles will be loaded.
+    If you put the styles in the body, then the browser will have to re-render when the CSS link is detected inside of body. If you put the CSS files at the bottmon then it will try to render 
+    the website without the CSS until it detects the CSS declaracy, in which it will re-render.
+
+5. article is the selecto rwhich matches all the elements inside of the follow HTML

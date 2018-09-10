@@ -6,7 +6,6 @@ html {
 }
 
 article {
-    width: 960px;
     width: 75ch;
     margin: auto;
     font-size: 20px;
@@ -14,7 +13,7 @@ article {
 
 
 #cover {
-    width: 960px;
+    width: 75ch;
 }
 h1 {
     font-size: 3em;
