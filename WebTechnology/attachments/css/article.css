@@ -1,10 +1,24 @@
-article {
-    width: 960px;
-    margin: auto;
+html {
+    font-family: "Georgia",Verdana,sans-serif !important;
+    line-height: 150%;
+    background-color: #d3d3d3;
+    color: #323232;
 }
 
+article {
+    width: 960px;
+    width: 75ch;
+    margin: auto;
+    font-size: 20px;
+}
+
+
+#cover {
+    width: 960px;
+}
 h1 {
     font-size: 3em;
+    margin-bottom: 0;
 }
 
 h2 {
