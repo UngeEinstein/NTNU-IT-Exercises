@@ -1,0 +1,8 @@
+x=3, y=8 og z=-3?
+
+-5 < z and 5 > z                                    #Gir True fordi -5 er mindre enn -3 og 5 er større enn -3
+not y == 8                                          #Gir False fordi y er 8 mens koden sier at y ikke skal være 8
+x == 8 or y == 8                                    #Gir True fordi y er 8, selv om x ikke er det. Men siden det er or, så må bare en av de være 8
+not (x <= 3 or y >= 9)                              #Gir False fordi x<=3 er er lik eller mindre enn 3, men x er 3 så den oppfyler er lik delen. Altså False
+not (x**2 != 8 and y-z == 5) or x+y == y-z          #Gir true fordi x**2 er ikke 8 og y-z er ikke 5, men x**2 er 9 og y-z==11. Den andre delen er også true
+
