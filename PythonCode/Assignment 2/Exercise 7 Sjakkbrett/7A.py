@@ -4,7 +4,7 @@ def sjakk():
     if len(str(pos))!=2:                                        
         exit("Feil input.\nDu må skrive akkurat to tegn")
     tall=int(pos[1])
-    bokstav=str.lower(pos[0])
+    bokstav= (pos[0])
     bokstav_svart_1={"a","c","e","g"}
     tall_svart_1={1,3,5,7}
 

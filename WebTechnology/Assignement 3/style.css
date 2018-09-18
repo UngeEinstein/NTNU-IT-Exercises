@@ -6,3 +6,10 @@ html, body{
 
 /* Part 4 */
 
+li{
+  list-style-type: square;
+}
+
+ul>li:last-child{
+  color:red;
+}

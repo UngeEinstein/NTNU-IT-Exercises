@@ -1,4 +1,5 @@
 fullpris=440
+minipris=199
 
 while True:
     dager_til=input("Dager til du skal reise? ")
