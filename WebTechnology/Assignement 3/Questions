@@ -1,0 +1,21 @@
+1. The difference between position:absolute and position:fixed is that absolute will make the element
+position relative to its closest ancestor. Fixed however will make it relative to the users visible area 
+of the webpage(viewport). This means that elements will stay at the same place regardless
+if you scroll. I absolute, if i move the ancestor element, then the element with position:absolute will 
+still stay in the assigned part of the ancestor element, even if you move the ancestor around or even resize it. If it doesnt have 
+an ancestor it will use the document body as its ancestor
+
+2.I would use :nth-child(x), where x specifices which number. For example 
+since i would have to choose the third child i would use :nth-child(3).
+
+<ol>
+<li>Somebody</li>
+<li>Once</li>
+<li>Told</li>
+<li>Me</li>
+</ol>
+
+Lets say i would want to make the third element inside this list red, which is the Told part
+then i would use ol>li:nth-child(3){
+    color:red;
+}
