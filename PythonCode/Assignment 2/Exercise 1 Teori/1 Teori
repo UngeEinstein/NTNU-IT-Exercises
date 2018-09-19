@@ -1,0 +1,20 @@
+1A: Primær lagring, som f.eks. RAM, blir ofte kjent som et midlertidig lager, altså at 
+alt lagret vil ofte forsvinne når dataen mister strøm/skrus av på. Denne formen for lagring
+har mer direkte kontakt med prosessoren
+Sekundær lagring derimot er mer som et skikkelig "lager". F.eks. HDD og SSD der man faktisk kan lagre informasjon
+og hente informasjon
+
+1B:RAM er kjent som et volatilt minne, som betyr at den trenger strøm for å lagre dataen. HDD
+derimot lagrer svært ofte informasjon gjennom magnetiske plater og er ikke avhengig av strøm for å huske/lagre informasjon. HDD lagres
+mye seinere enn RAM, mens RAM er nesten instant.
+HDD er altså et mekanisk lagringsmedie som betyr at henting av informasjon skjer mekansik(platedisk). HDD er også sekvensiell
+SSD er ikke mekanisk og tilfeldig
+1C: Silisium er en havleder, som betyr at strøm kun kan strømme gjennom under bestemte forhold og oppfører seg som en isolator under andre.
+Det viktigeste er at silisium sine elektriske egenskaper kan endres gjennom å dope stoffet og dette fører til at den blir til en ideal transistor for elektriske signaler.
+I tillegg er det mye silisium som man kan få tak i
+
+1D. Transistor brukes ofte som en av og på knapp og dens egenskaper er at den kan forsterke et strømsignal eller blokere den
+
+1E) 32 000bytes*8=256000Bit
+256000Bit/40Sek=
+6400 bits per sek. 
