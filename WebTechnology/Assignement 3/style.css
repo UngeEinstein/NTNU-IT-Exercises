@@ -10,6 +10,6 @@ li{
   list-style-type: square;
 }
 
-ul>li:last-child{
+ul>ul>li:last-child{
   color:red;
 }
