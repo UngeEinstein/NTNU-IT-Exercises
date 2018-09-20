@@ -1,7 +1,7 @@
 def sjakk():
     pos=input("Skriv inn posisjon: ")
     #Hvis lengden på inputet ikke er 2 så får man en error
-    if len(str(pos))!=2:                                        
+    if len(pos)!=2:                                        
         exit("Feil input.\nDu må skrive akkurat to tegn")
     tall=int(pos[1])
     bokstav= (pos[0])

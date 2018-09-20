@@ -7,15 +7,15 @@ while True:
         break
     print("Skriv inn et gyldig tall: ")    
 if int(dager_til)>14:
-    print("Minipris,",str(minipris)+",- kan ikke refunderes/endres")
+    print("Minipris {0},- kan ikke refunderes/endres".format(minipris))
     while True:
-        ønskes=str.lower(input("Ønskes dette? (J/N): "))
+        ønskes=input("Ønskes dette? (J/N): ").lower()
         if ønskes in ["j","n"]:
             break
         print("Skriv inn et gyldig svar")
     if ønskes=="j":
         print("Takk for pengene, god reise!") 
     elif ønskes=="n":
-        print("Da tilbyr vi fullpris",str(fullpris)+",-")   
+        print("Da tilbyr vi fullpris {0},-".format(fullpris))   
 else:
-    print("For sent for minipris; fullpris",str(fullpris)+",-")
+    print("For sent for minipris; fullpris {0},-".format(fullpris))

@@ -3,22 +3,38 @@ html,body{
   padding: 0;
   height: 100%;
 }
-.wrapper{
+
+/*Her har jeg satt wrapperen min slik at den alltid dekker hele siden selv om den er tom*/ 
+.wrapper{               
   min-height:100%;
   position: relative;
-  padding-bottom: 60px;
 }
-
+/*Siden wrapperen dekker hele side selv om den er tom, så vil footeren kunne være på bunnen 
+relativt til wrapperen uansett hva. Høyden er satt for paddingen til teksten i tillegg til at vi
+skal kunne se teksten selv om siden er helt tom*/ 
 footer{
   position: absolute;
   bottom:0;
+  height: 45px;
+  width: 100%;
+  background-color: yellow
+}
+/*Her har jeg satt padding bottom til 45px for hele hoveddelen, som er koresponderende til footeren sin høyde. Altså at selv om det
+er altfor mye tekst på siden, så vil padding-bottom sørge for at teksten ikke overlapper ved å skape et lite luftrom
+på bunnen slik at footeren alltid er et lit estykke under footeren. Jeg kunne godt kanskje brukt
+p:last-child som psuedo selector for padding-bottom, men det kan jo hende at noen vil ha noe annet en <p>
+på bunnen, som en liste. Altså alt luftrommet vil legge seg under "main" delen, som er for å skape rom for footeren.*/
+#main{
+  padding-bottom: 45px;
 }
 /* Part 4 */
 
 li{
   list-style-type: square;
 }
-
+/*Hoved unordered listen har altså to unordered lister inni der. Det spesifiserer vi at 
+den siste childen av den unordered listen inni unordered listen skal bli røde, altså
+SCSS og Babel */
 ul>ul>li:last-child{
   color:red;
 }
