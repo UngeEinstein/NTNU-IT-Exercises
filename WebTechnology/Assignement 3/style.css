@@ -24,7 +24,7 @@ er altfor mye tekst på siden, så vil padding-bottom sørge for at teksten ikke
 på bunnen slik at footeren alltid er et lit estykke under footeren. Jeg kunne godt kanskje brukt
 p:last-child som psuedo selector for padding-bottom, men det kan jo hende at noen vil ha noe annet en <p>
 på bunnen, som en liste. Altså alt luftrommet vil legge seg under "main" delen, som er for å skape rom for footeren.*/
-#main{
+.main{
   padding-bottom: 45px;
 }
 /* Part 4 */
