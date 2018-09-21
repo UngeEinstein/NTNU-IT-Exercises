@@ -12,19 +12,35 @@
     text-align: left;
     max-width:80%;
     padding-top:2%;
+    padding-bottom: 5%;
+  }
 
-
+  /*For mobilenheter  */
+  @media only screen and (max-width: 939px){
+    video{
+      display: none;    
+    }   
+    #bygg{
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+  /* For Ikke Mobilenheter*/
+    @media only screen and (min-width:940px){
+      #bygg{
+        display: none;
+      }
+    }
+  video{
+    height: auto;
+    width: 100%;
   }
 
   #screen {
     position: relative;
   }
 
-  video {
-    height: auto;
-    width: 100%;
-  }
-    
   #title {
     position: absolute;
     top: 50%;
