@@ -1,1 +1,1 @@
-# Plis ikke kok
+# Remember kids, koking is bad
