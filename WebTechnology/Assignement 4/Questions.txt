@@ -1,0 +1,11 @@
+1.They usually have autoplay off to prevent unnecessary high use of data. It can get quite expensive
+if it autoplays and you cannot even choose whatever you want it to autoplay or not. 
+TL:DR; it protects the user's bandwith and prevent undesireable usage of your data
+
+2.The device to the visitor has a width less than what the CSS code desires to run on (768px-1024px).
+The code will make sure if device has a width which is acceptable for the code, it will not display the logo. 
+Also, this mean on our device the logo will be displayed
+
+3. It makes it easier to make changes since you dont have to change two versions everytime you wish to do some changes.
+You can just change the one responsive version and it will more or less work for both platforms. Also it makes the life of a 
+web designer a little easier. It can also reduce room for errors
