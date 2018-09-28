@@ -1,6 +1,8 @@
-n=0
-r=0.5
-while(n<4):
-    r=r+r**n
-    n=n+1
-print(r)
+Sum=0
+i=0
+n=int(input("Skrivv inn antall ledd i rekken"))
+r=int(input("Skriv inn et tall mellom -1,1"))
+while(i<=n):
+    Sum+=(r**i)
+    i+=1
+print(Sum)
