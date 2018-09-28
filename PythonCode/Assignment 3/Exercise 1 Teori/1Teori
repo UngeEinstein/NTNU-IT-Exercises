@@ -1,0 +1,15 @@
+a)  De fem stegene i fetch,execute cycle er 
+    1.Instruction Fetch, 
+    2.Instruction Decode
+    3.Data fetch
+    4.Instruction execute
+    5.Result Return
+b) Data fetch henter verdiene ALU trenger 
+c) Programtelleren er en kontroll del til maskinen lagrer adressen til neste instruks.
+   Rett og slett så indikere den hvor datamskinen er i en program sekvenns så den vet hvilke steg den er på eller skal gjøre etterpå.
+d) Over 1GHz
+e) Solid State Driver
+f)HDD er altså et mekanisk lagringsmedie som betyr at henting av informasjon skjer mekansik(platedisk). HDD er også sekvensiell
+SSD er ikke mekanisk, men er tilfeldig. SSD er også mye raskere og har består av integerete kretser
+g) ALU sin hovedoppgave er å utføre regneopperasjoner. Blant annet å legge til, sammenligne, multiplisere osv. Når ALUen er ferdig
+flytter den svarene til minnelokasjon spesifisert i instruksjonen den har fått
