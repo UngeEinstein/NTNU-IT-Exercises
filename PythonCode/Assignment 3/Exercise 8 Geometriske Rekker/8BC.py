@@ -6,5 +6,5 @@ while (2-Sum)>tol:
     Sum=(1-r**(n+1))/(1-r)
     n+=1
 print(Sum)
-print("Antal iterasjoner: {0}".format(n))
+print("For å være innenfor toleransegrensen: {0} , kjørte løkken {1} ganger.".format(tol,n))
 print("Diferansen mellom grenseverdien og faktisk verdi: ", 2-Sum)
