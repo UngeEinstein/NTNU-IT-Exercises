@@ -7,3 +7,10 @@ elif (disposisjon>=pris) and (hoy_hals==False):
     print("Let videre")
 else:
     print("Bjørn har ikke råd")
+
+a = True
+b = False
+if not ((a and not b) or (a or b)):
+    print ("Tomat")
+else:
+    print ("Potet")
