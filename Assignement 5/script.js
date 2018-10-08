@@ -23,21 +23,23 @@ for (i= 0;i <(numbers.length); i++){      /*Her har jeg brukt listenavn.lenght s
     
 }
 /* Part 4 */
-
-document.getElementById("title").innerText="Hello JavaScript!"   /*her henter jeg IDen fra HTML filen (title) og bruker innertext for å endre headeren*/
+var tittel=document.getElementById("title");
+tittel.innerText="Hello JavaScript!"   /*her henter jeg IDen fra HTML filen (title) og bruker innertext for å endre headeren*/
 /* Part 5 */
+var viser_påSkjerm=document.getElementById("magic")
+var synlig=document.getElementById("magic")
 function changeDisplay() {
-    document.getElementById("magic").style.display="none";
+    viser_påSkjerm.style.display="none";
 }
 
 function changeVisibility() {
-    document.getElementById("magic").style.visibility="hidden";
-    document.getElementById("magic").style.display="block";
+    synlig.style.visibility="hidden";
+    viser_påSkjerm.style.display="block";
 }
 
 function reset() {
-    document.getElementById("magic").style.visibility="visible";
-    document.getElementById("magic").style.display="block";
+    synlig.style.visibility="visible";
+    viser_påSkjerm.style.display="block";
 }
 /*Funksjonene ovenfor har blitt koblet sammen med de ulike knappene som er lagd i HTMLen*/
 /* Part 6 */
