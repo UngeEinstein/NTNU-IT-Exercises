@@ -1,4 +1,5 @@
 /* Part 2 */
+
 console.log('PART 2')
 for (tall=1; tall<21;tall++){
     console.log(tall)
