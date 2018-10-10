@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tax form</title>
+        <link rel="stylesheet" type=text/css href="style.css">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="http://folk.ntnu.no/michaedm/norwegian-tax-administration/receive.php" method="post">
+            <div class="form">
+            Real name:<br>
+            <input type="text" name="name">
+            <br>
+            <br>
+            Gender:<br>
+            <input type="radio" name="gender" value="Male">Male<br>
+            <input type="radio" name="gender" value="Female">Female<br>
+            <input type="radio" name="gender" value="Shrek">Shrek
+            <br>
+            <br>
+            E-mail:<br>
+            <input type="email" name="email" placeholder="youre@rockstar.com">
+            <br>
+            <br>
+            Birthday:<br>
+            <input type="date" name="birthday">
+            <br>
+            <br>
+            Hero name:<br>
+            <input type="text" name="hero">
+            <br>
+            <br>
+            <input type="checkbox" name="spandex"> Do you wear spandex?<br>
+            <br> 
+            <br>
+            Strength: <br>
+            <select name="strength">
+                <option value="" disabled selected>Select a number</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+
+            </select>
+            <br>
+            <br>
+            Speed: <br>
+            <select name="speed">
+                <option value="" disabled selected>Select a number</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>    
+            </select>
+            <br>
+            <br>
+            Intelligence: <br>
+            <select name="intelligence">
+                <option value="" disabled selected>Select a number</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>    
+            </select> 
+            <br>
+            <br>
+            <input type="submit" value="Submit tax form">
+            </div>
+        </form>
+    </body>
+</html>
