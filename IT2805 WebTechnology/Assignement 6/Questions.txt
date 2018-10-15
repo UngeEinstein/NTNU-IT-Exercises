@@ -1,0 +1,17 @@
+1. The expression wil levaluate false because the numbers are only
+approximations and not precise values. For example 0.1+0.2===0.3 could
+actually be 0.9999+0.20024, which is not the the exact equal to 0.3
+
+2.The method attribute on the form element decides how the form will send its form data
+
+3. It is because you are requesting data from somewhere (GET) instead of submitting data to somewhere (post)
+
+4. It is bad practice because it will increase the risk of leaked information. If you only validate the input with
+HTML/JavaScript, then it will be much easier for someone, like an hacker, to abuse the code/find weaknesses in the code and use it 
+in their favour to get the information. 
+For example you can change on the HTML input through inspect tool and abuse the code in their favour. This is one of many reasons why you should 
+validate the form data at server for example/somewhere they wont have access to
+
+5. textarea defines multiple-line text input while the input tag specifies the field which the user can write in data.
+This means that its better to use textarea if you want the user to write somethin long, and something the user can see through
+before submiting. For example input while submitting data or textarea in an online editor? since textarea has unlimited number of characters
