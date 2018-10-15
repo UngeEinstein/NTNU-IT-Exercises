@@ -1,10 +1,8 @@
-def cupcakes():
-    cupcakes = 24
-    print("Jeg har laget",cupcakes,"cupcakes")
-  
-def cakes():
-    print("Men jeg har bare bakt",cake,"kake")
-    cake = 1
-  
-cupcakes()
-cakes()
+Kodesnutt 1
+cakes() vil ikke kjøre fordi variabelen cake variabelen er satt etter print funksjonen
+
+Kodesnutt 2
+Cakes() vil ikke kjøre her heller fordi cupcake er ikke lokalt definert i cakes.
+
+Kodesnutt 3
+Her mangler cakes bare selve variabelen
