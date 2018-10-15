@@ -1,0 +1,10 @@
+def cupcakes():
+    cupcakes = 24
+    print("Jeg har laget",cupcakes,"cupcakes")
+  
+def cakes():
+    print("Men jeg har bare bakt",cake,"kake")
+    cake = 1
+  
+cupcakes()
+cakes()

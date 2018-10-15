@@ -10,7 +10,7 @@
         <form action="http://folk.ntnu.no/michaedm/norwegian-tax-administration/receive.php" method="post" required>
             <div class="form">
             Real name:<br>
-            <input type="text" name="name" pattern="[a-zA-ZæøåÆØÅ]+( [a-zAæøåÆØÅ+)*$"> 
+            <input type="text" name="name" required pattern="[a-zA-Z]+[a-zA-Z ]+" title="Please only use alphabetical characters"> 
              <!--Kun tillatt med bokstaver A-Z og ÆØÅ, både store og små bokstaver. Pattern er nemelig 
                 hvilken mønster kreves eller må oppfylles.Altså her er det a-z og A-Z, æøåÆØÅ. I tillegg er det tilatt med mellomrom
             mellom ord.-->
@@ -23,11 +23,11 @@
             <br>
             <br>
             E-mail:<br>
-            <input type="email" name="email" placeholder="youre@rockstar.com" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$">
+            <input type="email" name="email" placeholder="youre@rockstar.com" required pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-zA-Z]{2,3}$"
             <br>
             <br>
             Birthday:<br>
-            <input type="date" name="birthday" required min="1981-01-01" max="2018-01-01">
+            <input type="date" name="birthday" required max="1987-12-31">
             <br>
             <br>
             Hero name:<br>
@@ -87,19 +87,20 @@
             <br>
             <br>
             Income: <br>
-            <input type="number" name="income" required>
+            <input type="number" id="income" required min="0" oninput="calculate_tax()">
             <br>
             <br>
             Wealth: <br>
-            <input type="number" name="wealth" required>
+            <input type="number" id="wealth" required min="0" oninput="calculate_tax()">
             <br>
             <br>
             Tax: <br>
-            <input type="number" name="tax" disabled>
+            <input type="number" id="tax" disabled>
             <br>
             <br>
             <input type="submit" value="Submit tax form">
             </div>
         </form>
+        <script src="script.js"></script>
     </body>
 </html>
