@@ -1,0 +1,23 @@
+a)  4 Bytes*8=32 Bits   
+    2³²= 4,294,967,296
+
+b)  I sort hvitt vil hver pixel være det samme som 1 bit
+    1920*1080= 2 073 600 Pixler
+    2 073 600 pixler=2 073 600 Bits
+    2 073 600/8= 259 200 Bytes
+
+c)  DAC står for Digital to Analog Converter. Det er en krets som  
+    kan gjøre datakoder til lyd.
+
+d) 18 er 10010 i totallsystemet
+   18 er 12 i sekstentallsystemet
+
+e)0101 0000 0100 1111 0101 0000
+      P         O         P
+
+f) Funksjonen til en piksel er å vise en farge. Piksel er byggesteinen I
+   digitale bilder og sammen med mange andre små piksler så vil den sammen sette fram et bilde
+
+g) Hos digital lyd vil lyden være være lagret i binær kode der tallfølgen vil ha noe å si hvordan 
+    frekvensen beveger seg. Dette kan blant annet føre til dårligere kvalitet i lyd på grunn av unøyaktig
+    lagring av lyd. I analag derimot kan den nå alle deler av frekvensgrafen
