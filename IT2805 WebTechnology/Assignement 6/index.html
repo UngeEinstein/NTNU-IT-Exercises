@@ -17,16 +17,22 @@
             <br>
             <br>
             Gender:<br>
+            <!--Her har jeg brukt input type radio fordi de skal kun ha et valg alternativ-->
             <input type="radio" name="gender" value="Male" required>Male<br>
             <input type="radio" name="gender" value="Female">Female<br>
             <input type="radio" name="gender" value="Shrek">Shrek<br>
             <br>
             <br>
             E-mail:<br>
-            <input type="email" name="email" placeholder="youre@rockstar.com" required pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-zA-Z]{2,3}$"
+            <!--Her har jeg brukt input type email, men den sjekker ikke om man har .com etter alfakrøllen og sånn.
+            Jeg har prøvd meg på en pattern som muligens kan være nyttig til å validate det. Den er ikke perfekt, men den
+            funker på en måte. -->
+            <input type="email" name="email" placeholder="youre@rockstar.com" required pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-zA-Z]{2,3}$">
             <br>
             <br>
             Birthday:<br>
+            <!--Her er har jeg brukt max="" som gjør det ikke mulig å velge datoer fra og med 1988. Dette skyldes at oppgaven
+            spesifisere at kun datoer før 1988 er gyldig-->
             <input type="date" name="birthday" required max="1987-12-31">
             <br>
             <br>
@@ -34,9 +40,12 @@
             <input type="text" name="hero" required>
             <br>
             <br>
+            <!--Her brukes en checkbox som Bolean faktor der checked=True og empty=False-->
             <input type="checkbox" name="spandex"> Do you wear spandex?<br>
             <br> 
             <br>
+            <!--Nedenfor har jeg brukt select, altså en dropdown meny for alle tallene fra 1-10. Jeg valgte å bruke select så 
+            fordi valget skal være begrenset. Her kan man se alle mulighetene-->
             Strength: <br>
             <select name="strength" required>
                 <option value="" disabled selected>Select a number</option>
@@ -86,6 +95,9 @@
             <br>
             <br>
             <br>
+            <!--min="0" sørger for at ingen negative tall skrives inn. Oninput gjør som at når et tall blir skrevet inn
+            så vil den kjøre funksjonen calculate_tax().Dette skjer ved hvert nye tastetrykk som fører til at den opdatere
+            seg hele tiden automatisk-->
             Income: <br>
             <input type="number" id="income" required min="0" oninput="calculate_tax()">
             <br>
